@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,  
+                                       initial-scale=1"> 
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <script src="play.js"></script>
+    </head>
+    <body>
+        <! Bewerbungs Video>
+        <div class="vimeo-wrapper">
+            <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+            <iframe id="player1" src="https://player.vimeo.com/video/349205791?autoplay=0&loop=1&byline=0&title=0?api=1&player_id=player1&mute=0"
+                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+
+
+        <div class="overlay">
+            <div class="navRow">
+                <div style="display: inline">
+                    <h2>ZADIK GEBREHMEDIN</h2>
+                    <p style="margin: 0">for ADIDAS</p>
+                </div>
+            </div>
+            <div class="downRow">
+                <button id="play-button" onclick="displayPause()">Play<img src="play.png" width="50px"></button>
+                <button id="pause-button" onclick="displayPlay()">Pause<img src="pause-01.png" width="50px"></button>
+                <h3>Interaktive Bewerbung</h3>
+                <h1>DUALES STUDIUM (BACHELOR) 2020</h1>
+                <p>Dies ist eine interaktive Bewerbung für die Ausschreibung auf careers.adidas-group.com.<br><br>
+
+                    Das Interview sowie die verwendete Hintergrund-Präsentation ist <a>hier</a> erhältlich. Vielen Dank für diese Möglichkeit.</p>
+            </div>
+        </div>
+    </body>
+</html>
