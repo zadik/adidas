@@ -85,7 +85,6 @@ html{
     margin-top: 40px;
     -webkit-filter: drop-shadow(0px 0px 10px #000);
     filter: drop-shadow(0px 0px 30px #000);
-    padding 10px;
 }
 
 
@@ -98,7 +97,6 @@ html{
     width: 90%;
     -webkit-filter: drop-shadow(0px 0px 10px #000);
     filter: drop-shadow(0px 0px 10px #000);
-    padding: 10px;
 }
 
 img{
